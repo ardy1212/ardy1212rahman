@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe4e1;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center; /* Menyusun foto di tengah */
+    gap: 20px; /* Jarak antar foto */
+}
+
+.gallery-item {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1; /* Foto akan menyesuaikan ukuran sesuai kontainer */
+    max-width: 300px; /* Maksimal lebar foto */
+}
+
+.gallery-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.about img {
+        max-width: 300px; /* Atur ukuran maksimum gambar */
+        width: 100%; /* Gambar akan menyesuaikan lebar kontainer */
+        height: auto; /* Menjaga rasio aspek gambar */
+        border-radius: 10px; /* Memberikan sedikit efek melengkung pada sudut gambar */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan untuk memberikan efek kedalaman */
+        margin-top: 20px; /* Memberikan sedikit jarak antara gambar dan teks */   
+
+}
+
